@@ -5,7 +5,7 @@ asyncpg
 pydantic-settings
 google-generativeai
 python-dotenv
-pgvector                # Для роботи з векторами в Postgres
-pypdf                   # Для читання PDF
-langchain-text-splitters # Для правильної нарізки тексту
-python-multipart        # Для завантаження файлів
+pgvector                
+pypdf                 
+langchain-text-splitters 
+python-multipart       
