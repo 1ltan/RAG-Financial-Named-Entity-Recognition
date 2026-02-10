@@ -58,7 +58,7 @@ docker-compose up -d
 #### Creating an extension
 
 ```bash
-docker exec -it financial_ner_db psql -U postgres -d FinancialNER
+docker exec -it your_DB psql -U postgres -d your_DB
 ```
 
 ---
