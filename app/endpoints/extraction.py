@@ -31,7 +31,7 @@ async def upload_financial_pdf(
     
     await db.commit()
     await db.refresh(new_doc) 
-    print(f"Документ збережено з ID: {new_doc.id}")
+    print(f"Document saved with ID: {new_doc.id}")
 
     # RAG Pipeline
     chunks = pdf_service.create_chunks(text)
